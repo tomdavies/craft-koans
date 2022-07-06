@@ -9,7 +9,7 @@ Avoid:
 ```twig
 {# news/index.twig #}
 {% for article in paginatedArticles %}
-  <section class="flex md:flex-col space-y-4 space-x-4 >
+  <section class="flex md:flex-col space-y-4 space-x-4">
     <figure class="w-full md:w-1/2 lg:w-1/3">
       <img 
           src="{{ article.image.url }}" 
