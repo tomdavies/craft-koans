@@ -1,0 +1,25 @@
+{
+  "name": "craft-koans",
+  "version": "1.0.0",
+  "description": "This Is The Way",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tomdavies/craft-koans.git"
+  },
+  "author": "Tom Davies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomdavies/craft-koans/issues"
+  },
+  "homepage": "https://github.com/tomdavies/craft-koans#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
